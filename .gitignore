@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build and test outputs
+build/
+coverage/
+out/
+
+# SSL and sensitive keys
+*.pem
+*.key
+*.cert
+*.crt
+
+# OS generated files
+Thumbs.db
+
+# Temporary/scratch files
+test_search.ts
+fix-a11y.cjs
+fix_db.ts
+server/fix_db.ts
